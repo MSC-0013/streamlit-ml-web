@@ -15,7 +15,11 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.linear_model import LogisticRegression, LinearRegression
 import numpy as np
 
+# Add title
 st.title("Advanced Data & Machine Learning Dashboard")
+
+# Add very small subtitle using Markdown emphasis
+st.markdown("*Visualize and Analyze Your Data with Cutting-Edge Machine Learning Models - Designed by MSC*")
 
 # Sidebar for file upload
 st.sidebar.subheader("File Upload")
